@@ -1,0 +1,13 @@
+.button {
+	height: 34px;
+	width: 120px;
+	border: 2px solid #7CAE7A;
+	color: #7CAE7A;
+}
+
+.button p {
+	position: relative;
+	font-size: 16px;
+	
+}
+

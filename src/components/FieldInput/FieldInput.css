@@ -1,0 +1,94 @@
+.field-input input {
+	height: 34px;
+	width: 200px;
+	padding-left: 8px;
+	padding-top: 10px;
+	font-size: 16px;
+	color: #1a171b;
+}
+
+.field-input input:focus {
+	outline: none;
+}
+
+.field-input__placeholder {
+	position: absolute;
+	left: 8px;
+	top: 14px;
+	color: #808080;
+	font-size: 16px;
+	pointer-events: none;
+	transition: 0.2s ease-out;
+}
+
+.field-input input:focus ~ .field-input__placeholder {
+	font-size: 10px;
+	top: 2px;
+	transition: 0.2s ease-out;
+}
+
+.hasInput {
+	font-size: 10px;
+	top: 2px;
+}
+
+.field-input .error {
+	border: 1px solid red;
+}
+
+.field-input .success {
+	border: 1px solid #69cc9a;
+}
+
+.field-input__validation-error {
+	opacity: 0;
+	height: 20px;
+	width: 20px;
+	background-color: #c00;
+	position: absolute;
+	right: -8px;
+	top: 13px;
+	transition: 0.2s ease-out;
+}
+
+.error ~ .field-input__validation-error {
+	opacity: 1;
+	transition: 0.2s ease-out;
+	right: 8px;
+}
+
+.field-input__validation-message {
+	opacity: 0;
+	width: 100%;
+	position: absolute;
+	color: red;
+	top: 50px;
+	left: 0px;
+	text-align: left;
+	transition: 0.2s ease-out;
+	font-size: 12px;
+}
+
+.error ~ .field-input__validation-message {
+	opacity: 1;
+	transition: 0.2s ease-out;
+	top: 48px;
+}
+
+.field-input .field-input__validation-success {
+	opacity: 0;
+	height: 20px;
+	width: 20px;
+	background-color: #69cc9a;
+	position: absolute;
+	right: -8px;
+	top: 13px;
+	transition: 0.2s ease-out;
+}
+
+.success ~ .field-input__validation-success{
+	opacity: 1;
+	transition-delay: 0.2s;
+	transition: 0.2s ease-out;
+	right: 8px;
+}
