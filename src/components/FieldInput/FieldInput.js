@@ -12,7 +12,8 @@ class FieldInput extends React.Component {
 			error: false,
 			complete: false,
 			required: this.props.required,
-			validation_message: this.props.validation_message || "" 
+			validation_message: this.props.validation_message || "",
+			type: this.props.type || "text" 
 		}
 	}
 
@@ -34,7 +35,7 @@ class FieldInput extends React.Component {
 	render() {
 		return (
 			<div className="field-input">
-				<input onBlur={this.handleInput} onChange={this.handleInput} type={this.props.type} className={ `${this.state.complete ? "success" : null} ${this.state.error ? "error" : null}` } />
+				<input onBlur={this.handleInput} onChange={this.handleInput} type={this.state.type} className={ `${this.state.complete ? "success" : null} ${this.state.error ? "error" : null}` } />
 				<span className={`field-input__placeholder ${(this.state.value.length >= 1) ? "hasInput" : null}`}>{this.state.placeholder}</span>
 				<span className="field-input__validation-message">{this.state.validation_message}</span>
 				<span className="field-input__validation-error"></span>
