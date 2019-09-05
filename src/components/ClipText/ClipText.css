@@ -1,0 +1,13 @@
+.cliptext {
+  color: transparent;
+  font-size: 10rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.cliptext__main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}

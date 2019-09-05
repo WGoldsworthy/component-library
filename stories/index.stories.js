@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../src/App.css'
+
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
@@ -22,4 +24,8 @@ storiesOf('Button', module)
 
 
 storiesOf('FieldInput', module)
-	.add('standard', () => <FieldInput type="text"></FieldInput>)
+	.add('standard', () => 
+		<div style={{width: '500px'}}>
+			<FieldInput type="text" placeholder="Text Input" validation_message="Please enter a valid something"></FieldInput>
+		</div>
+	)
