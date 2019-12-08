@@ -1,3 +1,15 @@
+/*
+  Headers
+  font-family: 'Bebas Neue', cursive;
+
+  Main
+  font-family: 'Montserrat', sans-serif;
+*/
+
+:root {
+  --red: #ED3F28;
+}
+
 .App {
   position: absolute;
   top: 0px;
@@ -6,10 +18,24 @@
   background-color: #ffffff;
   height: 100%;
   width: 100%;
-  background-color: black;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .centered {
   position: relative;
   top: 50%;
+}
+
+.section__about {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 110vh;
+  left: 0;
+}
+
+.section__about__info {
+  margin-top: 50px;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
 }

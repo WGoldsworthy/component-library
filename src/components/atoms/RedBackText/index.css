@@ -1,0 +1,6 @@
+.redBackText {
+	background-color: var(--red);
+	color: white;
+	padding: 1px 4px 0px 4px;
+	font-family: 'Bebas Neue', cursive !important;
+}

@@ -1,0 +1,41 @@
+.slide-up-panel-one {
+	position: absolute;
+	height: 10vh;
+	width: 200vw;
+	top: 150vh;
+	left: -50vw;
+	transform: rotate(-10deg);
+	background-color: #F5CB5C;
+	animation: onloadSlideUp ease-out;
+	animation-duration: 0.8s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+.slide-up-panel-two {
+	position: absolute;
+	height: 10vh;
+	width: 200vw;
+	top: 150vh;
+	left: -50vw;
+	transform: rotate(-10deg);
+	background-color: #FC9E4F;
+	animation: onloadSlideUp ease-out;
+	animation-duration: 0.8s;
+	animation-delay: 0.55s;
+	animation-fill-mode: forwards;
+}
+
+.slide-up-load {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+@keyframes onloadSlideUp {
+	0% {top: 150vh; height: 10vh;}
+	50% {height: 30vh;}
+	100% {top: -50vh; height: 10vh;}
+}

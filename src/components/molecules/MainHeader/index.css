@@ -1,0 +1,39 @@
+.mainHeader__text {
+	font-family: 'Bebas Neue', cursive;
+	position: relative;
+	top: 50%;
+	animation: whiteTextAnimation 1s ease-in-out;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+
+.mainHeader__col {
+	position: relative;
+	top: 45%;
+}
+
+.mainHeader__animation-block {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 0;
+	background-color: var(--red);
+	animation: redBackgroundSlide 1s ease-in-out;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes redBackgroundSlide {
+	0% { left: 0; width: 0;}
+	45% {width: 100%; left: 0;}
+	50% {width: 100%; right: 0;}
+	60% {width: 100%; left: unset;}
+	100% {width: 0%; right: 0;}
+}
+
+@keyframes whiteTextAnimation {
+	0% { color: black;}
+	30% { color: white;}
+	70% { color: white;}
+	100% { color: black;}
+}
