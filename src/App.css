@@ -21,6 +21,13 @@
   font-family: 'Bebas Neue', cursive;
 }
 
+.whitespace__warning {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: grey;
+}
+
 .centered {
   position: relative;
   top: 50%;
@@ -29,7 +36,7 @@
 .section__about {
   position: relative;
   width: 100vw;
-  /*top: 110vh;*/
+  margin-top: 10vh;
   left: 0;
   margin-bottom: 40px;
 }
@@ -46,4 +53,11 @@
   top: 10vh;
   left: 0;
   margin-bottom: 50px;
+  height: 20vw;
+}
+
+.section__work-info {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 6vw;
 }

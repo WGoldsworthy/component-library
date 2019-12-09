@@ -1,0 +1,19 @@
+.scrollDownIcon__row {
+	position: absolute;
+	bottom: 0;
+	height: 10vh;
+	width: 100vw;
+}
+
+.scrollDownIcon__chevron-container {
+	position: relative;
+	bottom: 2vh;
+	animation: bounceUpDown 1s ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes bounceUpDown {
+	0% {bottom: 1vh;}
+	50% {bottom: 0vh;}
+	100% {bottom: 1vh;}
+}

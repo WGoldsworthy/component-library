@@ -8,70 +8,22 @@ const CardCarousel = ({cards}) => {
     <div className="cardCarousel">
       <div className="card">
         <div className="title">AND Digital</div>
+        <div className="card__info">
+          My current place of residence! Working on project based work for clients 
+          such as Conde Nast, Arsenal Football Club and Shawbrook Bank.
+        </div>
       </div>
       <div className="card">
         <div className="title">Thomson Reuters</div>
       </div>
       <div className="card">
         <div className="title">Firmstep</div>
-        </div>
+      </div>
       <div className="card">
         <div className="title">Freelance</div>
-        </div>
+      </div>
     </div>
   )
 }
 
 export default CardCarousel;
-
-// <div class="container">
-//   <div class="card">
-//     <h3 class="title">Card 1</h3>
-//     <div class="bar">
-//       <div class="emptybar"></div>
-//       <div class="filledbar"></div>
-//     </div>
-//     <div class="circle">
-//       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-//       <circle class="stroke" cx="60" cy="60" r="50"/>
-//     </svg>
-//     </div>
-//   </div>
-//   <div class="card">
-//     <h3 class="title">Card 2</h3>
-//     <div class="bar">
-//       <div class="emptybar"></div>
-//       <div class="filledbar"></div>
-//     </div>
-//     <div class="circle">
-//       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-//       <circle class="stroke" cx="60" cy="60" r="50"/>
-//     </svg>
-//     </div>
-//   </div>
-//   <div class="card">
-//     <h3 class="title">Card 3</h3>
-//     <div class="bar">
-//       <div class="emptybar"></div>
-//       <div class="filledbar"></div>
-//     </div>
-//     <div class="circle">
-//       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-//       <circle class="stroke" cx="60" cy="60" r="50"/>
-//     </svg>
-//     </div>
-//   </div>
-//   <div class="card">
-//     <h3 class="title">Card 4</h3>
-//     <div class="bar">
-//       <div class="emptybar"></div>
-//       <div class="filledbar"></div>
-//     </div>
-//     <div class="circle">
-//       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-//       <circle class="stroke" cx="60" cy="60" r="50"/>
-//     </svg>
-//     </div>
-//   </div>
-// </div>
-// </body>
