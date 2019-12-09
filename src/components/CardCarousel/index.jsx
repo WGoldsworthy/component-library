@@ -1,8 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './index.css'
 
 const CardCarousel = ({cards}) => {
-
 
   return (
     <div className="cardCarousel">
@@ -15,6 +14,10 @@ const CardCarousel = ({cards}) => {
       </div>
       <div className="card">
         <div className="title">Thomson Reuters</div>
+          <div className="card__info">
+            Developing an innovation project for their flagship market trading platform, Eikon, 
+            where I also got to demo to clients such as HSBC, Nomura and BNP Paribas.
+          </div>
       </div>
       <div className="card">
         <div className="title">Firmstep</div>

@@ -22,6 +22,16 @@ body {
   position: relative;
   left: 0px;
   text-align: left;
+  cursor: pointer;
+}
+
+.selectedCard {
+  overflow: hidden;
+  height: 200vh;
+  position: absolute !important;
+  left: -50vw;
+  width: 200vw;
+  top: -50vh;
 }
 
 .card:not(:first-child) {
