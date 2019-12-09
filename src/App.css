@@ -27,15 +27,23 @@
 }
 
 .section__about {
-  position: absolute;
-  height: 100vh;
+  position: relative;
   width: 100vw;
-  top: 110vh;
+  /*top: 110vh;*/
   left: 0;
+  margin-bottom: 40px;
 }
 
 .section__about__info {
   margin-top: 50px;
   text-align: right;
   font-family: 'Montserrat', sans-serif;
+}
+
+.section__work {
+  position: relative;
+  width: 100vw;
+  top: 10vh;
+  left: 0;
+  margin-bottom: 50px;
 }
