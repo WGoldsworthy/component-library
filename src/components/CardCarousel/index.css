@@ -115,12 +115,38 @@ body {
   z-index: 10;
 }
 
-.col > .modalImage {
-  height: 100%;
+.andLogo {
+  margin-top: 20vh;
+  width: 50vw;
 }
 
-.modalImage {
-  height: 100%;
+.modalContent {
+  overflow: scroll;
+}
+
+.imageLeft {
+  position: absolute;
+  left: 100px;
+  perspective: 300px;
+  transition: 0.3s ease-out;
+}
+
+.vogueBizHub {
+  height: 40vh;
+  transform: rotateY(7deg);
+  box-shadow: 1px 1px 10px 0px;
+  transition: 0.3s ease-out;
+}
+
+.imageLeft:hover {
+  perspective: 0px;
+  transition: 0.3s ease-out;
+}
+
+.imageLeft:hover .vogueBizHub {
+  height: 80vh;
+  transform: rotateY(0deg);
+  transition: 0.3s ease-out;
 }
 
 /* ------ CIRCLE FILL ANIMATION ------- */

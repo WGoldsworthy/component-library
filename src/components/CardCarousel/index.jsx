@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import { Col, Row } from 'reactstrap';
 import RedBackText from '../atoms/RedBackText';
-import AndChair from '../../assets/AndChair.jpg';
+import AndLogo from '../../assets/AndLogo.webp';
+import VogueBizHub from '../../assets/VogueBizHub.png';
 import './index.css'
 
 const CardCarousel = ({cards}) => {
@@ -48,13 +49,11 @@ const CardCarousel = ({cards}) => {
         <div className={`FSCard ${isOpen ? 'cardOpen' : null}`}>
           <div onClick={openModal} className="close">CLOSE</div>
           <div className={`FSContent ${isOpen ? 'contentOpen' : null}`}>
-            <Col xs={5}>
-              <div className="modalImage">
-                <img src={AndChair} />
+            <Col className="modalContent" xs={12}>
+              <img className="andLogo" src={AndLogo} />
+              <div className="imageLeft">
+                <img className="vogueBizHub" src={VogueBizHub} />
               </div>
-            </Col>
-            <Col>
-              <RedBackText>And Digital</RedBackText>
             </Col>
           </div>
         </div>
