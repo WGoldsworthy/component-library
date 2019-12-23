@@ -19,6 +19,7 @@
   height: 100%;
   width: 100%;
   font-family: 'Bebas Neue', cursive;
+  overflow-x: hidden;
 }
 
 .whitespace__warning {

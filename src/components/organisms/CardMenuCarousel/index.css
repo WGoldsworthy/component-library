@@ -1,0 +1,63 @@
+.cardMenuCarousel {
+	position: absolute;
+	width: 260vw;
+	height: 70vh;
+	transform: translateX(-47.5vw);
+	margin-top: 160px;
+	transition: 0.4s ease-in-out;
+}
+
+.cardMenuItem {
+	height: 60vh;
+	width: 60vw;
+	border: 1px solid black;
+	position: relative;
+	display: inline-block;
+}
+
+.cardMenuItem:not(:first-child) {
+	margin-left: 5vw;
+}
+
+.selected1 {
+	transform: translateX(17.5vw) !important;
+	transition: 0.4s ease-out;
+}
+
+.selected2 {
+	transform: translateX(-47.5vw) !important;
+	transition: 0.4s ease-out;
+}
+
+.selected3 {
+	transform: translateX(-112.5vw) !important;
+	transition: 0.4s ease-out;
+}
+
+.selected4 {
+	transform: translateX(-167.5vw) !important;
+	transition: 0.4s ease-out;
+}
+
+.openingItem {
+	position: fixed;
+	top: -50vh;
+	left: -50vw;
+	background-color: red;
+	border-radius: 50%;;
+	height: 200vh;
+	width: 200vw;
+	animation: growCenterCircle 1s ease-out;
+	animation-fill-mode: forwards;
+	transform: scale(0);
+	transform-origin: center;
+}
+
+@keyframes growCenterCircle {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}

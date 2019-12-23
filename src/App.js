@@ -8,6 +8,7 @@ import RedBackText from './components/atoms/RedBackText';
 import CardCarousel from './components/CardCarousel';
 import ScrollDownIcon from './components/animations/ScrollDownIcon';
 import ScreenAreaWrapper from './components/organisms/ScreenAreaWrapper';
+import CardMenuCarousel from './components/organisms/CardMenuCarousel';
 import './App.css';
 
 
@@ -44,6 +45,9 @@ function App() {
     			<CardCarousel />
     		</Col>
     	</Row>
+        <Row>
+            <CardMenuCarousel />
+        </Row>
     </div>
   );
 }

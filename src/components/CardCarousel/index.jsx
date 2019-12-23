@@ -13,6 +13,8 @@ const CardCarousel = ({cards}) => {
     setIsOpen(!isOpen)
   }
 
+  // Change this to be some sort of skills / experience for different areas etc
+
   return (
     <div>
       <div className="cardCarousel">
