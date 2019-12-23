@@ -5,7 +5,7 @@ import MainHeader from './components/molecules/MainHeader';
 import MenuButton from './components/organisms/MenuButton';
 import AreaTag from './components/organisms/AreaTag';
 import RedBackText from './components/atoms/RedBackText';
-import CardCarousel from './components/CardCarousel';
+import CardCarousel from './components/organisms/CardCarousel';
 import ScrollDownIcon from './components/animations/ScrollDownIcon';
 import ScreenAreaWrapper from './components/organisms/ScreenAreaWrapper';
 import CardMenuCarousel from './components/organisms/CardMenuCarousel';
