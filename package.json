@@ -7,7 +7,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0",
-    "reactstrap": "^8.0.0"
+    "reactstrap": "^8.0.0",
+    "styled-components": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,11 +34,13 @@
     ]
   },
   "devDependencies": {
-    "@storybook/react": "^5.0.11",
+    "@babel/core": "^7.4.4",
     "@storybook/addon-actions": "^5.0.11",
     "@storybook/addon-links": "^5.0.11",
     "@storybook/addons": "^5.0.11",
-    "@babel/core": "^7.4.4",
-    "babel-loader": "^8.0.5"
+    "@storybook/react": "^5.0.11",
+    "babel-loader": "^8.0.5",
+    "codeceptjs": "^2.3.1",
+    "puppeteer": "^1.20.0"
   }
 }
