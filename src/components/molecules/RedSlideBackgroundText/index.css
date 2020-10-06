@@ -1,5 +1,5 @@
 .mainHeader__text {
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Bebas Neue';
 	position: relative;
 	top: 50%;
 	animation: whiteTextAnimation 5s ease-in-out;
@@ -17,7 +17,7 @@
 	top: 0;
 	height: 100%;
 	width: 0;
-	background-color: var(--red);
+	background-color: red;
 	animation: redBackgroundSlide 5s ease-in-out;
 	animation-fill-mode: forwards;
 	animation-iteration-count: infinite;

@@ -5,6 +5,6 @@
 }
 
 .readmeHover:hover {
-	border-bottom: 4{"CaseRef":"2020070133","SearchConsent":true,"IsSoftCheck":true,"Applicants":[{"keyPerson":{"firstName":"Minnie","lastName":"Mouse","dateOfBirth":"1961-01-30","keyPersonType":"D"},"residencies":[{"houseName":"12","street":"12","town":"12","country":"UK","postcode":"SE8 4DF","addressLine1":"","addressLine2":"","residentFrom":"01/02/2019","residentTo":"07/09/2020"},{"houseName":"","street":"","town":"MUMBAI","addressLine1":"G02, Dudhwala towers","addressLine2":"s","country":"OV","postcode":"400063","residentFrom":"01/02/2016","residentTo":"01/02/2019"}]}]}0px solid black;
+	border-bottom: 40px solid black;
 	transition: 0.5s ease-out;
 }

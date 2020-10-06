@@ -2,9 +2,6 @@ import React from 'react';
 import styled from 'styled-components'
 
 const CircularGradient = ({ size, colors }) => {
-
-	console.log(size)
-
 	const CircularGrad = styled.div`
 		height: ${size ? size : '180px'};
 	  	width: ${size ? size : '180px'};
