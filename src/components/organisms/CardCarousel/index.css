@@ -1,0 +1,205 @@
+body {
+  background-color: #100e17;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cardCarousel {
+  position: absolute;
+  height: 300px;
+  width: 50vw;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  height: 20vw;
+  width: 15vw;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem lightgrey;
+  border: none;
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.selectedCard {
+  overflow: hidden;
+  height: 200vh;
+  position: absolute !important;
+  left: -50vw;
+  width: 200vw;
+  top: -50vh;
+}
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-40px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 5vw;
+  transition: 0.4s ease-out;
+}
+
+.title {
+  font-weight: 300;
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+
+.card__info {
+  position: relative;
+  left: 15px;
+  width: 13vw;
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9vw;
+}
+
+/* ------- FULL SCREEN CARDS ------ */
+
+.fullScreenCard {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.FSCard {
+  overflow: hidden;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0vh;
+  left: -100vw;
+  background-color: white;
+  transition: 0.6s ease-out;
+}
+
+.FSContent {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: calc(100vw);
+  top: 0px;
+  transition: 0.6s ease-out;
+  overflow: hidden;
+}
+
+.contentOpen {
+  left: 0;
+  transition: 0.6s ease-out;
+}
+
+.cardOpen {
+  top: 0;
+  left: 0;
+  transition: 0.6s ease-out;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.andLogo {
+  margin-top: 20vh;
+  width: 50vw;
+}
+
+.modalContent {
+  overflow: scroll;
+}
+
+.imageLeft {
+  position: absolute;
+  left: 100px;
+  perspective: 300px;
+  transition: 0.3s ease-out;
+}
+
+.vogueBizHub {
+  height: 40vh;
+  transform: rotateY(7deg);
+  box-shadow: 1px 1px 10px 0px;
+  transition: 0.3s ease-out;
+}
+
+.imageLeft:hover {
+  perspective: 0px;
+  transition: 0.3s ease-out;
+}
+
+.imageLeft:hover .vogueBizHub {
+  height: 80vh;
+  transform: rotateY(0deg);
+  transition: 0.3s ease-out;
+}
+
+/* ------ CIRCLE FILL ANIMATION ------- */
+
+.bar {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  height: 5px;
+  width: 150px;
+}
+
+.emptybar {
+  background-color: #2e3033;
+  width: 100%;
+  height: 100%;
+}
+
+.filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: rgb(0,154,217);
+  background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+  transition: 0.6s ease-out;
+}
+
+.card:hover .filledbar {
+  width: 120px;
+  transition: 0.4s ease-out;
+}
+
+.circle {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 60px);
+}
+
+.stroke {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+}
+
+svg {
+  fill: #17141d;
+  stroke-width: 2px;
+}
+
+.card:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}

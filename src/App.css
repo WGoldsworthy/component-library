@@ -1,12 +1,32 @@
+/*
+  Headers
+  font-family: 'Bebas Neue', cursive;
+
+  Main
+  font-family: 'Montserrat', sans-serif;
+*/
+
 :root {
-  --cream-background:  #EEE0CB;
-  --dark-grey: #1a1a1a;
-  --khaki: #FAF0CA;
+  --red: #ED3F28;
 }
 
-#root {
+.App {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  font-family: 'Bebas Neue', cursive;
   overflow-x: hidden;
-  /*background: linear-gradient(103.74deg, #FF2351 0%, #294CFF 100.69%);*/
+}
+
+.whitespace__warning {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: grey;
 }
 
 .centered {
@@ -14,9 +34,31 @@
   top: 50%;
 }
 
-.main-logo {
+.section__about {
   position: relative;
-  margin-left: 180px;
-  margin-top: 80px;
-  z-index: 2;
+  width: 100vw;
+  margin-top: 10vh;
+  left: 0;
+  margin-bottom: 40px;
+}
+
+.section__about__info {
+  margin-top: 50px;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section__work {
+  position: relative;
+  width: 100vw;
+  top: 10vh;
+  left: 0;
+  margin-bottom: 50px;
+  height: 20vw;
+}
+
+.section__work-info {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 6vw;
 }

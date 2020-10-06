@@ -1,0 +1,65 @@
+.menuButton {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	height: 50px;
+	width: 50px;
+}
+
+.menuButton__outer {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.menuButton__outer:hover .menuButton__mid-line {
+	transition: 0.2s ease-out;
+	width: 40px;
+	left: -5px;
+	background-color: var(--red);
+}
+
+.menuButton__outer:hover .menuButton__top-line {
+	transition: 0.2s ease-out;
+	width: 35px;
+	left: 0px;
+}
+
+.menuButton__outer:hover .menuButton__bottom-line {
+	transition: 0.2s ease-out;
+	width: 35px;
+	left: 0px;
+}
+
+.menuButton__top-line {
+	position: absolute;
+	top: 10px;
+	height: 1px;
+	width: 30px;
+	background-color: black;
+	left: 5px;
+	transition: 0.3s ease-out;
+}
+
+.menuButton__mid-line {
+	position: absolute;
+	top: 20px;
+	height: 1px;
+	width: 30px;
+	background-color: black;
+	left: 5px;
+	transition: 0.3s ease-out;
+
+}
+
+.menuButton__bottom-line {
+	position: absolute;
+	top: 30px;
+	height: 1px;
+	width: 30px;
+	background-color: black;
+	left: 5px;
+	transition: 0.3s ease-out;
+}

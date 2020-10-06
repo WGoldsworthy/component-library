@@ -1,0 +1,2 @@
+ - Biking / about me section
+ - animated map of europe with routes done drawind on the page
