@@ -1,0 +1,9 @@
+.logo {
+	background-image: url('../../../assets/kairos.svg');
+	background-repeat: no-repeat;
+	transition: 0.2s ease-out;
+
+	&-menu-open {
+		filter: invert(90) brightness(100%);
+	}
+}

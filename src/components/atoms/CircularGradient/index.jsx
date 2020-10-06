@@ -15,7 +15,6 @@ const CircularGradient = ({ size, colors }) => {
 	  	background: -webkit-linear-gradient(#D4F4DD, #D62246, #4B1D3F);
 	`
 
-
 	return(
 		<CircularGrad className="circularGradient" />
 	);

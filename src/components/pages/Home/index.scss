@@ -1,0 +1,158 @@
+.pill {
+	width: 150px;
+	border: 2px solid #ff2353;
+	border-radius: 20px;
+	height: 30px;
+	text-align: center;
+	line-height: 26px;
+}
+
+.home-page-content {
+	position: relative;
+	margin-top: 70px;
+	margin-left: 180px;
+}
+
+.home-page-header {
+	/*color: grey;*/
+	color: linear-gradient(103.74deg, #FF2351 0%, #294CFF 100.69%);
+}
+
+.home-page-header-description {
+	margin-top: 30px;
+	width: 60vw;
+}
+
+.home-page-banner {
+	position: relative;
+	display: block;
+	left: -180px;
+	margin-top: 70px;
+	width: 99vw;
+	height: 80vh;
+	background-image: url('../../../assets/kairos/DW.jpg');
+	background-position: center;
+	margin-bottom: 100px;
+}
+
+.home-page-banner-description {
+	position: absolute;
+	color: white;
+	right: 0px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.home-page-banner-readmore {
+	position: absolute;
+	color: grey;
+	right: 0px;
+	margin-right: 20px;
+	margin-top: 45px;
+	cursor: pointer;
+	transition: 0.1s ease-out;
+
+	&:hover {
+		color: white;
+	};
+}
+
+.home-page-case-study {
+	position: relative;
+	width: 700px;
+	left: calc(50% - 70px - 350px);
+
+	&-description {
+		font-size: 1.2rem;
+		margin-top: 50px;
+		margin-bottom: 180px;
+	}
+}
+
+.home-page-case-study-image:hover .img {
+	transition: 0.2s ease-out;
+	transform: scale(1.1);
+}
+
+.home-page-case-study-right {
+	position: relative;
+	width: 99vw;
+	left: -180px;
+	height: 550px;
+	display: flex;
+	margin-bottom: 100px;
+
+	& .home-page-case-study-image {
+		width: 60vw;
+		height: 100%;
+		overflow: hidden;
+
+		& .img {
+			height: 100%;
+			width: 100%;
+			transition: 0.2s ease-out;
+			background-image: url('../../../assets/kairos/spark.jpg');
+			background-position: center;
+	    }
+	}
+
+	& .home-page-case-study-header {
+		width: 30vw;
+		position: relative;
+		margin-left: 7vw;
+		margin-top: 150px;
+	}
+
+	& .home-page-case-study-description {
+		width: 30vw;
+		position: relative;
+		margin-left: 7vw;
+		margin-top: 40px;
+	}
+
+	& .home-page-case-study-info {
+		width: 40vw;
+		display: inline-block;
+	}
+}
+
+.home-page-case-study-left {
+	position: relative;
+	width: 99vw;
+	left: -180px;
+	height: 550px;
+	display: flex;
+	margin-bottom: 200px;
+
+	& .home-page-case-study-image {
+		width: 60vw;
+		height: 100%;
+		overflow: hidden;
+
+		& .img {
+			height: 100%;
+			width: 100%;
+			transition: 0.2s ease-out;
+			background-image: url('../../../assets/kairos/williams.png');
+		}
+	}
+
+	& .home-page-case-study-header {
+		width: 30vw;
+		position: relative;
+		margin-left: 5vw;
+		margin-top: 150px;
+	}
+
+	& .home-page-case-study-description {
+		width: 30vw;
+		position: relative;
+		margin-left: 5vw;
+		margin-top: 40px;
+	}
+
+	& .home-page-case-study-info {
+		width: 40vw;
+		display: inline-block;
+	}
+}

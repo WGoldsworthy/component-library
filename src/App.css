@@ -1,18 +1,22 @@
 :root {
   --cream-background:  #EEE0CB;
+  --dark-grey: #1a1a1a;
+  --khaki: #FAF0CA;
 }
 
-.App {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  text-align: center;
-  background-color: var(--cream-background);
-  height: 100%;
-  width: 100%;
+#root {
+  overflow-x: hidden;
+  /*background: linear-gradient(103.74deg, #FF2351 0%, #294CFF 100.69%);*/
 }
 
 .centered {
   position: relative;
   top: 50%;
+}
+
+.main-logo {
+  position: relative;
+  margin-left: 180px;
+  margin-top: 80px;
+  z-index: 2;
 }

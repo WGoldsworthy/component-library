@@ -1,6 +1,6 @@
 .cliptext {
   color: transparent;
-  font-size: 10rem;
+  font-size: 6rem;
   font-weight: bold;
   font-family: sans-serif;
 }
@@ -9,5 +9,4 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
 }
