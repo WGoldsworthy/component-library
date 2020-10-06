@@ -3,8 +3,6 @@ import React from 'react';
 import './ClipText.css'
 
 function ClipText (props) {
-	console.log(props.gif)
-
 	var gif = props.gif;
 
 	if (props.type) {

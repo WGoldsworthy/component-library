@@ -1,6 +1,6 @@
 import React from 'react';
 import KairosLogo from '../../atoms/KairosLogo';
-import ClipText from '../../ClipText/ClipText';
+import ClipText from '../../molecules/ClipText';
 import './index.scss';
 
 const Home = ({isMenuOpen}) => {

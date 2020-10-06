@@ -10,6 +10,8 @@ Set up as a place to maintain and reuse elements and components that I played wi
 | CardCarousel       | Hoverable information cards that align to show each one. Originally from CSS tricks  |
 | ByrdMenu           | Slideout left menu with animation. Text fly-ins                                      |
 | Circular Gradient  | Simple atom that provides a nice gradient fade in a circle                           |
+| RedSlideBackgroundText| An animated text block that has a background animation sliding behind             |
+| ReactLogo             | An Animated react logo                                                            |
 
 # Useful Package List
 

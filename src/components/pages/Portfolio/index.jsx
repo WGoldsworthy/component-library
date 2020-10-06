@@ -1,18 +1,18 @@
 import React from 'react';
-import {Container, Col, Row} from 'reactstrap';
-import ReactLogoAnimation from './components/animations/ReactLogo';
-import MainHeader from './components/molecules/MainHeader';
-import MenuButton from './components/organisms/MenuButton';
-import AreaTag from './components/organisms/AreaTag';
-import RedBackText from './components/atoms/RedBackText';
-import CardCarousel from './components/organisms/CardCarousel';
-import ScrollDownIcon from './components/animations/ScrollDownIcon';
-import ScreenAreaWrapper from './components/organisms/ScreenAreaWrapper';
-import CardMenuCarousel from './components/organisms/CardMenuCarousel';
-import './App.css';
+import { Col, Row} from 'reactstrap';
+import ReactLogoAnimation from '../../animations/ReactLogo';
+import ScrollDownIcon from '../../animations/ScrollDownIcon';
+import RedBackText from '../../atoms/RedBackText';
+import RedSlideBackgroundText from '../../molecules/RedSlideBackgroundText';
+import MenuButton from '../../organisms/MenuButton';
+import AreaTag from '../../organisms/AreaTag';
+import CardCarousel from '../../organisms/CardCarousel';
+import ScreenAreaWrapper from '../../organisms/ScreenAreaWrapper';
+import CardMenuCarousel from '../../organisms/CardMenuCarousel';
+import '../../../App.css';
 
 
-function App() {
+function Portfolio() {
   return (
     <div className="App">
     	<ScreenAreaWrapper>
@@ -20,7 +20,10 @@ function App() {
     			Don't be afraid of all this whitespace
     		</div>
     		<MenuButton />
-    		<MainHeader/>
+    		<RedSlideBackgroundText textLines={[
+                "Hi, I'm Will; Software developer,",
+                "UI/UX enthusiast and cycling fanatic"
+            ]}/>
     		<AreaTag />
     		<ScrollDownIcon />
     	</ScreenAreaWrapper>
@@ -52,4 +55,4 @@ function App() {
   );
 }
 
-export default App;
+export default Portfolio;
