@@ -3,6 +3,11 @@ import React, { useRef, Suspense } from 'react';
 import {useLoader, useFrame, Canvas} from 'react-three-fiber';
 import { RectAreaLightUniformsLib } from 'three/examples/jsm/lights/RectAreaLightUniformsLib';
 
+/* 
+    A 3D spinning planet using ThreeJS
+        - Needs a canvas wrapper with suspense to render correctly
+*/
+
 RectAreaLightUniformsLib.init()
 
 const makeUrl = (file) => `https://raw.githubusercontent.com/flowers1225/threejs-earth/master/src/img/${file}.jpg`;
